@@ -12,4 +12,5 @@ router.route("/").get(getContacts);
 router.route("/:id").get(getContactDetail).put(updateContact).delete(deleteContact);
 //router.route("/:id").put(updateContact);
 //router.route("/:id").delete(deleteContact);
+
 module.exports = router;
